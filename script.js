@@ -1,5 +1,4 @@
 function makeid(l) {
-  function makeid(l) {
   const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   let result = '';
   const charactersLength = characters.length;
@@ -11,7 +10,6 @@ function makeid(l) {
   return result;
 }
 
-
 // Do not change the code below.
 const l = prompt("Enter a number.");
-alert(makeid(l));
+alert(makeid(Number(l)));
